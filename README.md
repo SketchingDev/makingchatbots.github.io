@@ -1,4 +1,4 @@
-# Dev Meets Contact-Center
+# Making Chatbots
 
 ## Development
 
