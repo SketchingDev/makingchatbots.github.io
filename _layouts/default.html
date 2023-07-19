@@ -1,0 +1,51 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    {% if jekyll.environment != "development" %}
+    {% include analytics.html %}
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+
+    <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path | absolute_url }}{% else %}{{ '/feed.xml' | absolute_url }}{% endif %}"
+          type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
+    <!-- For all browsers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Heebo:100,300,400,500,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
+    <link rel="stylesheet" href="{{ '/assets/css/syntax.css' }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | absolute_url }}">
+    {% seo %}
+</head>
+
+<body>
+    {% assign menu_section = page.title %}
+
+    {% if page.menu_section %}
+    {% assign menu_section = page.menu_section %}
+    {% endif %}
+
+    {% if layout.menu_section %}
+    {% assign menu_section = layout.menu_section %}
+    {% endif %}
+
+    {% include topnav.html menu_section=menu_section %}
+
+    {{ content }}
+    <script async src="{{ '/assets/js/bootstrap.min.js' }}"></script>
+</body>
+</html>

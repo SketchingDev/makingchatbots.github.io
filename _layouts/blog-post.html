@@ -1,0 +1,14 @@
+---
+layout: page
+menu_section: blog
+---
+
+{% if page.date %}
+<p class="text-muted">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+</p>
+{% endif %}
+
+<div class="images-fluid">
+{{ content }}
+</div>

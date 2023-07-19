@@ -1,1 +1,36 @@
-theme: jekyll-theme-cayman
+title: Making Chatbots
+title_separator: "-"
+locale: en-GB
+description: "Making Chatbots"
+comments: false
+url: https://makingchatbots.com
+atom_feed:
+  path: # blank (default) uses feed.xml
+
+sass:
+  sass_dir: ./_sass
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site Author
+author:
+  name: "Making Chatbots" # appears in the footer and atom feed
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /blog/:title.html
+
+# Without this building the website fails, saying it can't find the
+# Primer theme - which is correct as I removed all themes from the
+# Gemfile.lock when GitHub complained that the Primer theme wasn't
+# supported and yet kept being used as a theme in spite of any config
+# in here
+theme:

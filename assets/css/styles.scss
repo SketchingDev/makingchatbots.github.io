@@ -1,0 +1,8 @@
+---
+---
+
+@import "main";
+
+.images-fluid img {
+  @extend .img-fluid;
+}

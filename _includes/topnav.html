@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm navbar-light" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% for link in site.data.navigation.main %}
+                <li class="nav-item">
+                    {% assign link_title_lowercase = link.title | downcase %}
+                    {% assign include_menu_section_lowercase = include.menu_section | downcase %}
+                    {% if link_title_lowercase == include_menu_section_lowercase %}
+                    <a class="nav-link active" aria-current="page" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                    {% else %}
+                    <a class="nav-link" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+            <a class="d-flex navbar-brand fs-3 text" href="/">{{ site.title }}</a>
+        </div>
+    </div>
+</nav>

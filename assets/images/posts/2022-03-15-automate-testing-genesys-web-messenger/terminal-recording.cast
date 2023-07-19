@@ -1,0 +1,13 @@
+{"version": 2, "width": 90, "height": 17, "timestamp": 1647353664, "env": {"SHELL": "/bin/bash", "TERM": "screen"}}
+[0.910139, "o", "web-me"]
+[0.91035, "o", "ssaging-tester test-script.y"]
+[0.910545, "o", "aml"]
+[1.878127, "o", "\r\n"]
+[3.136613, "o", "\u001b[1m\u001b[37mTesting scenario 'Customer is greeted by the name they provide'...\u001b[39m\u001b[22m\r\n\u001b[1m\u001b[37m\u001b[39m\u001b[22m"]
+[4.039785, "o", "\u001b[1m\u001b[90mYou:\u001b[39m\u001b[22m \u001b[90mhi\u001b[39m\r\n"]
+[5.281117, "o", "\u001b[1m\u001b[90mThem:\u001b[39m\u001b[22m \u001b[90mHello, what is your name?\u001b[39m\r\n"]
+[5.443519, "o", "\u001b[1m\u001b[90mYou:\u001b[39m\u001b[22m \u001b[90mLucas\u001b[39m\r\n"]
+[7.420622, "o", "\u001b[1m\u001b[90mThem:\u001b[39m\u001b[22m \u001b[90mHello Lucas, how may I help you today?\u001b[39m\r\n"]
+[9.421109, "o", "\u001b[1m\u001b[32mScenario passed\u001b[39m\u001b[22m\r\n\u001b[1m\u001b[32m\u001b[39m\u001b[22m\r\n\u001b[1m\u001b[32m\u001b[39m\u001b[22m"]
+[11.422537, "o", "\u001b[1mScenario Test Results\u001b[22m\r\n---------------------\r\n\u001b[32mPASS Customer is greeted by the name they provide\u001b[39m\r\n\r\n"]
+[15.428548, "o", "\r\n"]

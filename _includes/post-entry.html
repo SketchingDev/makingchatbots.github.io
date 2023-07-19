@@ -1,0 +1,13 @@
+<h3 class="ui header">
+    {% if post.link %}
+    <a href="{{ post.link }}">{{ post.title }}</a>
+    {% else %}
+    <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+    {% endif %}
+
+    {% if post.date %}
+    <div class="sub header">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+    </div>
+    {% endif %}
+</h3>
