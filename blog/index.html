@@ -11,7 +11,7 @@ title: Blog
             <img src="{{ post.thumbnail }}" class="img-fluid" alt="Thumbnail for artile">
         </div>
         {% endif %}
-        <div class="col-md-8">
+        <div class="{% if post.thumbnail %}col-md-8{% endif %}">
             <div class="card-body">
                 {% if post.link %}
                 <h5 class="card-title"><a href="{{ post.link }}">{{ post.title }}</a></h5>
