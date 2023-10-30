@@ -1,6 +1,7 @@
 ---
 layout: blog-post
 title: "Creating a realtime reporting tool for Genesys flows"
+excerpt: "Creating a real-time metric capturing tool for Architect flows that improved incident detection, insights, A/B testing, and flow development."
 date: 2023-04-19 00:00:00
 ---
 
@@ -127,8 +128,8 @@ Thanks to Genesys Cloud's increasing integrations to other tooling, I've been ab
 
 You can read my other articles on this subject here:
 
-* [Automating development of Genesys chatbots](https://sketchingdev.co.uk/blog/automating-development-of-genesys-chatbots.html)
-* [Automate testing Genesys' Web Messenger](https://sketchingdev.co.uk/blog/automate-testing-genesys-web-messenger.html)
+* [Automating development of Genesys chatbots](https://makingchatbots.com/blog/automating-development-of-genesys-chatbots.html)
+* [Automate testing Genesys' Web Messenger](https://makingchatbots.com/blog/automate-testing-genesys-web-messenger.html)
 
 If you have any questions, or would like to share your implementation then I'd love to hear from you
-[@SketchingDev](https://twitter.com/SketchingDev).
+either on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) or [Twitter](https://twitter.com/SketchingDev).

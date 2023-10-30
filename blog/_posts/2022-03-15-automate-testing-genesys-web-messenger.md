@@ -119,5 +119,5 @@ with automation! However, automated testing doesn't have to stop here... I'm wor
 [automating the testing of call flows](https://sketchingdev.co.uk/blog/automating-how-ivr-call-flows-are-tested.html)
 which I'd like to blog about soon.
 
-Lastly, if you have any questions about the tool discussed in this article then checkout the documentation on
-its [GitHub repository](https://github.com/ovotech/genesys-web-messaging-tester#readme) or Tweet me [@SketchingDev](https://twitter.com/sketchingdev).
+Lastly, if you have any questions about the tool discussed in this article then [checkout the documentation](https://genesys-messenger-tester.makingchatbots.com/)
+or message me on either [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) or [Twitter](https://twitter.com/SketchingDev).

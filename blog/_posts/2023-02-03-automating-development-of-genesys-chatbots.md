@@ -178,4 +178,4 @@ This has been a whistle-stop tour of the pipeline and the benefits it brought us
 information for you to get started with your own pipelines.
 
 If you have any questions, or would like to share your implementation then I'd love to hear from you
-[@SketchingDev](https://twitter.com/SketchingDev).
+either on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) or [Twitter](https://twitter.com/SketchingDev).
