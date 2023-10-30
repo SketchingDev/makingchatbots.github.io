@@ -4,6 +4,7 @@ locale: en-GB
 description: "Making Chatbots"
 comments: false
 url: https://makingchatbots.com
+favicon: "/assets/images/favicon.ico"
 atom_feed:
   path: # blank (default) uses feed.xml
 
