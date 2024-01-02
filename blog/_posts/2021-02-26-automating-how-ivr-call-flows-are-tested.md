@@ -24,7 +24,7 @@ calling IVR flows and traversing them based on what it hears. The benefits of su
 - End-to-end tests can test flows and their integrations, as part of a continuous delivery pipeline
 
 Developing this tool has been an interesting journey and one I'd like to share with you from a high-level (hopefully
-non-technical) perspective.
+non-technical) perspective. You can read [IVR Tester's documentation](https://ivr-tester.makingchatbots.com/) for a more technical overview.
 
 Let us begin by observing a human interacting with a call flow...
 
