@@ -15,7 +15,7 @@ using a tool I wrote (in the absence of any others) aptly named [Genesys Web Mes
 As an aside, we use this tool at OVO as part of a CI/CD process to test our chatbots before they're deployed to
 production.
 
-If you want to see the tool and its code head on over to [Genesys Web Messaging Tester on GitHub](https://github.com/ovotech/genesys-web-messaging-tester#readme).
+If you want to see the tool and its code head on over to [Genesys Web Messaging Tester on GitHub](https://github.com/ovotech/genesys-web-messaging-tester#readme), or check out [its documentation](https://genesys-messenger-tester.makingchatbots.com/).
 
 ## Writing automated tests
 
