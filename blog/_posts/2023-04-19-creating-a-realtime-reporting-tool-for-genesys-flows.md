@@ -131,5 +131,4 @@ You can read my other articles on this subject here:
 * [Automating development of Genesys chatbots](https://makingchatbots.com/blog/automating-development-of-genesys-chatbots.html)
 * [Automate testing Genesys' Web Messenger](https://makingchatbots.com/blog/automate-testing-genesys-web-messenger.html)
 
-If you have any questions, or would like to share your implementation then I'd love to hear from you
-either on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) or [Twitter](https://twitter.com/SketchingDev).
+Like what you read? Follow me on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) to be notified of future articles.

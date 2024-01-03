@@ -156,3 +156,5 @@ After gluing it all together, and adding a few bells and whistles, you end up wi
 This article has focused on just one of many interesting problems which come with making a tool like this. However,
 the most exciting of these will be integrating it into the testing of call flows used by hundreds of customers - a
 process that I will be sure to blog about!
+
+Like what you read? Follow me on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) to be notified of future articles.

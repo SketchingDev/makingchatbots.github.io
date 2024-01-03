@@ -177,5 +177,4 @@ scenarios:
 This has been a whistle-stop tour of the pipeline and the benefits it brought us. Hopefully, it has provided enough
 information for you to get started with your own pipelines.
 
-If you have any questions, or would like to share your implementation then I'd love to hear from you
-either on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) or [Twitter](https://twitter.com/SketchingDev).
+Like what you read? Follow me on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) to be notified of future articles.

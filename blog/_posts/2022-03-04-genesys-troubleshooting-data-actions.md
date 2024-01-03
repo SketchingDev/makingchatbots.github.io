@@ -101,3 +101,5 @@ Navigate to [http://127.0.0.1:4040/inspect/http](http://127.0.0.1:4040/inspect/h
 
 When you close ngrok it will also close the tunnel (which is unique each time), so you'll have to revert your
 Data Action's URL after inspecting the traffic.
+
+Like what you read? Follow me on [LinkedIn](https://www.linkedin.com/in/lucas-woodward-the-dev/) to be notified of future articles.
